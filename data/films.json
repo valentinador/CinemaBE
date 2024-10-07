@@ -1,0 +1,92 @@
+[
+  {
+    "_id":"66e061e2cccb4e1a6b0132f6",
+    "title": "Room",
+    "year": 2015,
+    "directorName": "Lenny",
+    "directorSurname": "Abrahamson",
+    "description": "Room è un film del 2015 diretto da Lenny Abrahamson. La pellicola, con protagonisti Brie Larson e Jacob Tremblay, è l'adattamento cinematografico del romanzo del 2010 Stanza, letto, armadio, specchio (Room) scritto da Emma Donoghue, la quale ha partecipato al film in qualità di sceneggiatrice e produttrice. Il romanzo stesso è ispirato ad una storia vera, il caso Fritzl, un episodio di cronaca nera avvenuto nella cittadina austriaca di Amstetten. Il film è stato candidato a quattro premi Oscar, tra cui quello al miglior film, aggiudicandosi quello per la miglior attrice protagonista, andato a Brie Larson.",
+    "averageRating": 5,
+    "photo": "room.jpg"
+  },
+  {
+    "_id":"66e061e2cccb4e1a6b0132f7",
+    "title": "Babylon",
+    "year": 2022,
+    "directorName": "Damien",
+    "directorSurname": "Chazelle",
+    "description": "Babylon è un film del 2022 scritto e diretto da Damien Chazelle. Ha ricevuto numerose candidature per diversi premi tra cui tre candidature agli Academy Award: Oscar alla miglior colonna sonora (a opera di Justin Hurwitz), Oscar alla migliore scenografia e Oscar ai migliori costumi.",
+    "averageRating": 3,
+    "photo": "babylon.jpg"
+  },
+  {
+    "_id":"66e061e2cccb4e1a6b0132f8",
+    "title": "Nowhere",
+    "year": 2023,
+    "directorName": "Albert",
+    "directorSurname": "Pintò",
+    "description": "Mia, in fuga da un paese totalitario, si ritroverà a causa di una tempesta in mezzo al mare in burrasca dentro al container dove si era nascosta. La ragazza, incinta, dovrà lottare per sopravvivere e salvare se stessa e la sua bambina.",
+    "averageRating": 4,
+    "photo": "nowhere.jpg"
+  },
+  {
+    "_id":"66e061e2cccb4e1a6b0132f9",
+    "title": "La dea fortuna",
+    "year": 2019,
+    "directorName": "Ferzan",
+    "directorSurname": "Özpetek",
+    "description": "La dea fortuna è un film del 2019 diretto da Ferzan Özpetek. Vincitore di due David di Donatello, per la migliore attrice protagonista a Jasmine Trinca e per la miglior canzone originale scritta e interpretata da Diodato.",
+    "averageRating": 1,
+    "photo": "la-dea-fortuna.jpg"
+  },
+  {
+    "_id":"66e061e2cccb4e1a6b0132fa",
+    "title": "Svaniti nella notte",
+    "year": 2024,
+    "directorName": "Renato",
+    "directorSurname": "De Maria",
+    "description": "Pietro Torre ed Elena Walgren stanno affrontando un divorzio apparentemente amichevole e combattono per l'affidamento dei loro due figli, Bianca e Giovanni. Elena è una psicoterapeuta americana che ha rinunciato alla carriera per dedicarsi a tempo pieno ai suoi figli e al sogno di aprire un B&B in una Masseria che ha acquistato con suo marito nelle campagne baresi. Durante le trattative per il divorzio emergono problemi importanti: Pietro è indebitato a causa del gioco d'azzardo mentre Elena fa abuso di farmaci da prescrizione.",
+    "averageRating": 2,
+    "photo": "svaniti-nella-notte.jpg"
+  },
+  {
+    "_id":"66e061e2cccb4e1a6b0132fb",
+    "title": "Chiedimi se sono felice",
+    "year": 2000,
+    "directorName": "Massimo",
+    "directorSurname": "Venier",
+    "description": "Chiedimi se sono felice è un film del 2000 del trio comico Aldo, Giovanni e Giacomo, diretto da loro e da Massimo Venier. La colonna sonora del film è stata affidata a Samuele Bersani. La pellicola è il terzo film del trio. Al titolo del film si è poi ispirato uno spettacolo teatrale del solo Giacomo Poretti dal titolo Chiedimi se sono di turno. Uscito nelle sale cinematografiche italiane il 15 dicembre 2000, ha incassato 28458894 €, risultando il maggior successo commerciale del trio, seguito da Così è la vita e La leggenda di Al, John e Jack.",
+    "averageRating": 5,
+    "photo": "chiedimi-se-sono-felice.jpg"
+  },
+  {
+    "_id":"66e061e2cccb4e1a6b0132fc",
+    "title": "18 regali",
+    "year": 2020,
+    "directorName": "Francesco",
+    "directorSurname": "Amato",
+    "description": "Estate 2001. La trentacinquenne Elisa muore per un tumore al seno, lasciando il marito Alessio e la figlia Anna appena nata. Prima della sua dipartita, ha provveduto a scrivere una lista di regali di compleanno per la bambina, nella speranza di poterle restare accanto postuma, fino alla sua maggiore età. Con gli anni, la giovanissima Anna avverte un crescente disagio. Un regalo non sembra poter colmare il vuoto lasciato dalla madre, un'assenza che la spinge a ribellarsi, arrivando a disertare il suo diciottesimo compleanno e fuggire di casa, fino a quando viene investita da un'auto.",
+    "averageRating": 3,
+    "photo": "18-regali.jpg"
+  },
+  {
+    "_id":"66e061e2cccb4e1a6b0132fd",
+    "title": "The Secret",
+    "year": 2020,
+    "directorName": "Andy",
+    "directorSurname": "Tennant",
+    "description": "Miranda una giovane vedova con tre figli, dopo aver accidentalmente tamponato l'auto di un uomo, lo assume come tuttofare, vista la sua disponibilità e l'aiuta a sistemare la casa dopo una terribile tempesta. Mentre lui si avvicina sempre di più alla famiglia, condivide con loro la sua filosofia, ovvero che ogni essere umano può agire come un magnete in grado di attirare a sé tutte le situazioni e le cose materiali che pensa con sufficiente intensità. La vedova presto realizza così di avere una connessione segreta con il suo passato.",
+    "averageRating": 2,
+    "photo": "the-secret.jpg"
+  },
+  {
+    "_id":"66e061e2cccb4e1a6b0132fe",
+    "title": "Baby",
+    "year": 2018,
+    "directorName": "Andrea",
+    "directorSurname": "De Sica",
+    "description": "Baby è una serie televisiva italiana, prodotta da Netflix e diretta da Andrea De Sica, Anna Negri e Letizia Lamartire. La serie si ispira liberamente allo scandalo delle 'baby squillo' dei Parioli, risalente all'anno 2013, raccontando la vita e le vicende di un gruppo di adolescenti romani e delle loro rispettive famiglie.",
+    "averageRating": 2,
+    "photo": "baby.jpg"
+  }
+]
