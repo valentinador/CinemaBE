@@ -58,7 +58,13 @@ app.use(limiter);
 app.use(hpp());
 
 //abilita il cors
-app.use(cors());
+app.use(cors({
+    origin: 'http://localhost:3001', 
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    credentials: true, 
+  }));
+  app.options('*', cors());  // Gestisce tutte le richieste preflight (per ora accetta tutto)
+
 
 //cookie parser
 app.use(cookieParser());
