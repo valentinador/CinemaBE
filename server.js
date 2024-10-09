@@ -16,8 +16,6 @@ o dal body, prendendo in considerazione solo il primo valore. */
 const hpp = require('hpp');
 const cors = require('cors');
 const connectDB = require('./config/db')
-//logger manuale senza usare morgan
-//const logger = require('./middleware/logger')
 const errorHandler = require('./middleware/error');
 //caricamento dei file env
 dotenv.config({path: "config/config.env"})
@@ -41,7 +39,7 @@ app.use(helmet({
     frameguard: { action: 'deny' }, // Protegge contro clickjacking
     hidePoweredBy: true,  // Nasconde il header X-Powered-By
     noSniff: true,  // Impedisce il browser di sniffare il tipo di contenuto
-    xssFilter: false, // Questo è deprecato nei browser moderni
+    xssFilter: false, // Solo per i browser "vecchi"
   }));
 
 // Prevenire attacchi xss
