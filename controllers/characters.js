@@ -3,6 +3,7 @@ const Character = require("../models/Character");
 const asyncHandler = require("../middleware/asyncHandler");
 const ErrorResponse = require("../utils/errorResponse");
 const Film = require("../models/Film");
+const successHandler = require("../middleware/success");
 
 /* 
 @desc   API per ottenere tutti i personaggi in generale e tutti quelli associati a un film
@@ -48,7 +49,7 @@ exports.getCharacter = asyncHandler(async(request, response, next) => {
 /* 
 @desc   API per aggiornare un personaggio
 @route  PUT /api/v1/character/:id
-@access Protected (serve autenticazione)
+@access Private (serve autenticazione)
 */
 exports.updateCharacter = asyncHandler(async(request, response, next) => {
     let character = await Character.findById(request.params.id);
@@ -67,7 +68,7 @@ exports.updateCharacter = asyncHandler(async(request, response, next) => {
 /* 
 @desc   API per aggiungere un personaggio
 @route  CREATE /api/v1/film/:filmId/characters
-@access Public (non serve autenticazione)
+@access Private (serve autenticazione)
 */
 exports.addCharacter = asyncHandler(async(request, response, next) => {
 
@@ -85,14 +86,9 @@ exports.addCharacter = asyncHandler(async(request, response, next) => {
 /* 
 @desc   API per eliminare un personaggio
 @route  DELETE /api/v1/character/:id
-@access Public (non serve autenticazione)
+@access Private (serve autenticazione)
 */
 exports.deleteCharacter = asyncHandler(async(request, response, next) => {
     await Character.findByIdAndDelete(request.params.id);
     successHandler(response, true, null, null, {});
-
-    response.status(200).json({
-        success: true,
-        data: {}
-      })
 });

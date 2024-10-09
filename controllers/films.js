@@ -74,7 +74,7 @@ exports.getFilm = asyncHandler(async (request, response, next) => {
 /* 
 @desc   API per aggiungere un film
 @route  POST /api/v1/film
-@access Public (non serve autenticazione)
+@access Private (serve autenticazione)
 */
 exports.createFilm = asyncHandler(async (request, response, next) => {
   const film = await Film.create(request.body);
@@ -84,7 +84,7 @@ exports.createFilm = asyncHandler(async (request, response, next) => {
 /* 
 @desc   API per aggiornare un film
 @route  PUT /api/v1/film/:id
-@access Public (non serve autenticazione)
+@access Private (serve autenticazione)
 */
 exports.updateFilm = asyncHandler(async (request, response, next) => {
   const film = await Film.findByIdAndUpdate(request.params.id, request.body, {
@@ -97,7 +97,7 @@ exports.updateFilm = asyncHandler(async (request, response, next) => {
 /* 
 @desc   API per eliminare un film
 @route  DELETE /api/v1/film/:id
-@access Public (non serve autenticazione)
+@access Private (serve autenticazione)
 */
 exports.deleteFilm = asyncHandler(async (request, response, next) => {
   //Cancellazione del film con i personaggi a cascata
@@ -109,7 +109,7 @@ exports.deleteFilm = asyncHandler(async (request, response, next) => {
 /* 
 @desc   Caricare la locandina di un film
 @route  PUT /api/v1/film/:id/locandina
-@access Public (non serve autenticazione)
+@access Private (serve autenticazione)
 */
 exports.filmPosterUpload = asyncHandler(async (request, response, next) => {
   //Cancellazione del film con i personaggi a cascata
