@@ -25,6 +25,8 @@ Se vuoi cancellare tutti i dati da db
 node seeder -d
 ```
 
+
+
 ## API per i film
 
 ### GET localhost:3000/api/v1/film
@@ -59,6 +61,8 @@ Api private per eliminare un film.
 ### PUT localhost:3000/api/v1/film/:id/locandina
 Api private per caricare la locandina del film (si riferisce a photo in film). Il body vuole un form-data file che prende solo le immagini in input.
 
+
+
 ## API per i personaggi associati a un film
 
 ### GET localhost:3000/api/v1/character
@@ -89,4 +93,35 @@ Api private per modificare un personaggio. Un esempio di body:
         "character": "Gandalf",
         //[inserisci gli altri campi da modificare prendendo spunto dalla post]
 }
+```
+
+
+
+## API per l'autenticazione
+
+### GET localhost:3000/api/v1/auth/me
+Api private per avere le informazioni sull'utente loggato
+
+### GET localhost:3000/api/v1/logout
+Api private per effetttuare il logout
+
+### POST localhost:3000/api/v1/login
+Api public per effetttuare il login. Un esempio di body (funzionante, esiste questo utente ed è publisher):
+ ```js
+ {
+    "email":"test@example.com",
+    "password": "Admin1234!"
+ }
+```
+
+### POST localhost:3000/api/v1/auth/register
+Api public per la registrazione di un nuovo utente. Un esempio di body:
+ ```js
+ {
+    "name": "Maria",
+    "surname": "Arancione",
+    "password": "Pippo1234!",
+    "email":"m.arancione@example.com",
+    "role": "user"
+ }
 ```
