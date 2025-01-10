@@ -1,6 +1,6 @@
 # Applicazione in Express e MongoDB 
 ## Introduzione
-Questo progetto è il risultato del corso Udemy che ho seguito sul backend. Inizialmente avevo intenzione di realizzarlo in Typescript ma il corso prevedeva che il progetto fosse in Javascript, quindi per essere in linea con il corso ho rimosso Typescript in corso d'opera (si, la cartella @types è una porcata ma avevo bisogno di far funzionare una libreria xD).
+Questo progetto è il risultato del corso Udemy che ho seguito sul backend. Il progetto è in Javascript (il corso non predeva Typescript ma inizialmente volevo provare ad inserirlo, poi ho abbandonato l'idea per quello è presente a cartella @types).
 Inoltre manca la parte relativa alla documentazione che cerco di riassumere su questo readme.
 L'idea è quella di avere un database di film in cui ad ogni film associo i personaggi (ad esempio se considero il Signore degli Anelli i personaggi saranno Frodo, Gandalf, Aragorn...). È presente anche l'autenticazione di due tipologie di utenti:
 - publisher (può pubblicare i contenuti, modificarli e cancellarli)
